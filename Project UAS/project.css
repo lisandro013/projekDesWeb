@@ -1,0 +1,189 @@
+
+body
+{
+	background-image: url("resource/CumaLogo.png");
+	background-color: white;
+	background-size: 5%,5%;
+	font-family: Arial;
+	text-align: justify;
+}
+/*bagian header*/
+.header
+{
+	padding: 80px;
+	text-align: center;
+	background-image: url("resource/LOGOUBAYA.png");
+	background-color: blue;
+	background-repeat: no-repeat;
+	background-size:90% 90%;
+	color: white;
+}
+.header h1
+{
+	font-size: 40px;
+}
+/*akhir header*/
+
+/*Bagian Membuka Link*/
+.menujuLink 
+{
+    overflow: hidden;
+    background-color: red;
+}
+
+.menujuLink a 
+{
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 15px 20px;
+    text-decoration: none;
+}
+
+.menujuLink a.kanan 
+{
+    float: right;
+}
+/*akhir membuka link*/
+
+/*bagian Log-in*/
+
+.main_log-in 
+{   
+	float: left;
+	width: 100%;
+	background-size:90% 90%;
+    background-color: white;
+}
+.kontainer
+{
+	position: relative;
+ 	border-radius: 5px;
+ 	background-color: gray;
+ 	padding: 20px 0 30px 0;
+}
+.row
+{
+  content: "";
+  display: table;
+  position: middle;
+  clear: both;
+}
+.row h1
+{
+	float: left;
+	padding: 0 50px;
+}
+.columb 
+{
+	float: left;
+ 	width: 100%;
+	margin: auto;
+	padding: 0 50px;
+}
+.columb input[type=submit] 
+{
+	background-color: green;
+	color: white;
+	cursor: pointer;
+	width: 145px;
+}
+.columb input[type=submit]:hover 
+{
+	background-color: blue;
+}
+
+/*akhir Log-in*/
+
+/*bagian Home*/
+.main_Home_Left_Right
+{   
+	float: left;
+	width: 20%;
+	height: 500px;
+	background-image: url("resource/CumaLogo.png");
+	background-repeat: no-repeat;
+	background-size:90% 90%;
+    background-color: brown;
+}
+.main_Home_Left_Right h2
+{
+	text-align: center;
+}
+.main_Home_Center
+{
+	float: left;
+	width: 60%;
+	height: 500px;
+	background-image: url("resource/CumaLogo.png");
+	background-repeat: no-repeat;
+	background-size:90% 90%;
+    background-color: white;
+}
+.main_Home_Center h2
+{
+	text-align: center;
+}
+
+/*akhir home*/
+
+/*bagian daftar Kelas*/
+.main_daftar-kelas
+{   
+	float: left;
+	width: 100%;
+	background-size:90% 90%;
+    background-color: green;
+}
+/*akhir daftar kelas*/
+
+/*bagian pilih Kelas*/
+.main_pilih-kelas
+{   
+	float: left;
+	width: 100%;
+	background-size:90% 90%;
+    background-color: yellow;
+}
+/*akhir pilih kelas*/
+
+/*bagian Status Kelas*/
+.main_status-kelas
+{   
+	float: left;
+	width: 100%;
+	height: 1000px;
+	background-size:90% 90%;
+    background-color: green;
+}.main_status-kelas h2
+{
+	text-align: center;
+}
+@media (max-width: 600px)
+{
+	.menujuLink a 
+	{
+		float: left;
+		width: 100%;
+	    display: block;
+	    color: white;
+	    text-align: center;
+	    padding: 15px 20px;
+	    text-decoration: none;
+	}
+	.menujuLink a.kanan 
+	{
+		float: left;
+	}
+
+	.main_Home_Left_Right
+	{
+		width: 100%;
+	}
+	.main_Home_Center
+	{
+		width: 100%;
+	}
+}
+/*akhir Status Kelas*/
