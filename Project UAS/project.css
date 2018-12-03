@@ -134,9 +134,26 @@ body
 	float: left;
 	width: 100%;
 	background-size:90% 90%;
-    background-color: green;
+    background-color: aqua;
 }
-/*akhir daftar kelas*/
+.customers th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: green;
+    color: white;
+}
+.customers tr:hover {background-color: #ddd;}
+.customers tr:nth-child(even){background-color: #f2f2f2;}
+.customers td, #customers th {
+    border: 1px solid ;
+    padding: 8px;
+}
+.customers {
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}/*akhir daftar kelas*/
 
 /*bagian pilih Kelas*/
 .main_pilih-kelas
