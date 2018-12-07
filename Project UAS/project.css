@@ -54,9 +54,10 @@ body
 .main_log-in 
 {   
 	float: left;
-	width: 100%;
+	width: 90%;
 	background-size:90% 90%;
     background-color: white;
+    margin-left: 5%;
 }
 .kontainer
 {
@@ -100,34 +101,65 @@ body
 
 
 	/*bagian Home*/
+.main_Home
+{
+	float: left;
+	width: 90%;
+	margin-left: 5%;
+}
 .main_Home_Left_Right
 {   
 	float: left;
 	width: 20%;
-	height: 500px;
+	height: 1000px;
 /*	background-image: url("resource/CumaLogo.png");
 	background-repeat: no-repeat;
-/*	background-size:90% 90%;*/
+	background-size:90% 90%;*/
     background-color: brown;
 }
 .main_Home_Left_Right h2
 {
 	text-align: center;
 }
+.main_Home_Left_Right h3
+{
+	text-align: left;
+	text-decoration: underline;
+	color: blue;
+	margin-left: 10px;
+}
+.main_Home_Left_Right p
+{
+	text-align: left;
+	margin-left: 10px;
+}
 .main_Home_Center
 {
 	float: left;
 	width: 60%;
-	height: 500px;
+	height: 1000px;
 	background-image: url("resource/CumaLogo.png");
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size:90% 90%;
     background-color: white;
+
 }
 .main_Home_Center h2
 {
 	text-align: center;
+}
+.main_Home_Center h3
+{
+	text-align: left;
+	text-decoration: underline;
+	color: blue;
+	margin-left: 30px;
+}
+.main_Home_Center p
+{
+	text-align: left;
+	margin-left: 10px;
 }
 .foto
 {
@@ -142,9 +174,11 @@ body
 .main_daftar-kelas
 {   
 	float: left;
-	width: 100%;
+	width: 90%;
 	background-size:90% 90%;
     background-color: aqua;
+    margin-left: 5%;
+
 }
 .customers th {
     padding-top: 12px;
@@ -171,9 +205,10 @@ body
 .main_pilih-kelas
 {   
 	float: left;
-	width: 100%;
+	width: 90%;
 	background-size:90% 90%;
     background-color: yellow;
+    margin-left: 5%;
 }
 	/*akhir pilih kelas*/
 
@@ -184,9 +219,7 @@ body
 	width: 90%;
 	background-size:80% 80%;
     background-color: red;
-    margin-left: 5%;
-    border: 3px solid black;
-    
+    margin-left: 5%;    
 }
 .customers th {
     padding-top: 12px;
